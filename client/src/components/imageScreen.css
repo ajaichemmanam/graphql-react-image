@@ -1,0 +1,12 @@
+.imgStyle {
+  padding: 5px;
+  width: 50%;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  
+}
