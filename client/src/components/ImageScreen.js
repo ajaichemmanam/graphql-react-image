@@ -10,11 +10,11 @@ class ImageScreen extends Component {
     return (
       <div className="imgContainer">
         <div className="imgStyle">
-          <img src={this.props.original} alt="Original" />
+          <img src={this.props.original} alt="Original" style={{height: "300px"}} />
           <div>Original Image</div>
         </div>
         <div className="imgStyle">
-          <img src={this.props.converted} alt="Processed" />
+          <img src={this.props.converted} alt="Processed" style={{height: "300px"}} />
           <div>Converted Image</div>
         </div>
       </div>

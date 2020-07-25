@@ -27,7 +27,7 @@ module.exports = function (context, request) {
     //  context.res = { body : { name : parts[0].filename, type: parts[0].type, data: parts[0].data.length}};
     context.res = {
       status: 200 /* Defaults to 200 */,
-      body: imageUrl,
+      bbody: { "url" :imageUrl}
       //         body: req.body.
     };
     context.done();
