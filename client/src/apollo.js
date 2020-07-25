@@ -5,7 +5,7 @@ import { split } from "apollo-link";
 import { getMainDefinition } from "apollo-utilities";
 import { InMemoryCache } from "apollo-cache-inmemory";
 
-export const HASURA_GRAPHQL_ENGINE_HOSTNAME = "hasuraimagedemo.herokuapp.com";
+export const HASURA_GRAPHQL_ENGINE_HOSTNAME = "hasurademodeployment.herokuapp.com";
 export const HASURA_GRAPHQL_ADMIN_SECRET = "mylongsecretkey";
 
 const scheme = (proto) => {

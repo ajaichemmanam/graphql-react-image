@@ -23,7 +23,7 @@ function updateConvertedImage(image) {
   return new Promise((resolve) => {
     convertImage(image).then(function () {
       uploadToCloud(image.id).then(function (uploadUrl) {
-        fetch("https://hasuraimagedemo.herokuapp.com/v1/graphql", {
+        fetch("https://hasurademodeployment.herokuapp.com/v1/graphql", {
           method: "POST",
           body: JSON.stringify({
             query: `

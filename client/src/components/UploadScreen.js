@@ -28,7 +28,7 @@ class UploadScreen extends Component {
     var uploadUrl =
       "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201611/mick_647_111816105803.jpg";
     // Insert imageURL to DB
-    fetch("https://hasuraimagedemo.herokuapp.com/v1/graphql", {
+    fetch("https://hasurademodeployment.herokuapp.com/v1/graphql", {
       method: "POST",
       body: JSON.stringify({
         query: `
@@ -52,9 +52,6 @@ class UploadScreen extends Component {
           var redirectPath = '/?id=' + id.toString()
         console.log(id, redirectPath);
         this.setState({redirectPath:redirectPath})
-        // return()
-        // return <Redirect to={{redirectPath}}/>
-        // this.props.history.push(redirectPath);
       });
   };
 
