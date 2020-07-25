@@ -1,0 +1,10 @@
+{
+  "name": "azuredependencies",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jimp": "^0.14.0",
+    "node-fetch": "^2.6.0",
+    "mime-types": "^2.1.27"
+  }
+}
